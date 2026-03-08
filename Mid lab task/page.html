@@ -4,6 +4,8 @@
 <head>
     <title>Contact us</title>
     <link rel="stylesheet" href="style.css">
+    <script src="javaS.js" defer></script>
+    
 </head>
 
 <body>
@@ -12,38 +14,38 @@
 
 <h1>Contact us</h1>
 
-<form>
+<form id="contactForm">
 
 <table>
 
 <tr>
 <td>
 <label>FIRST NAME</label>
-<input type="text">
+<input type="text" id="fname">
 </td>
 
 <td>
 <label>LAST NAME</label>
-<input type="text">
+<input type="text" id="lname">
 </td>
 </tr>
 
 <tr>
 <td>
 <label>EMAIL</label>
-<input type="email">
+<input type="email" id="email">
 </td>
 
 <td>
 <label>PHONE NUMBER</label>
-<input type="text">
+<input type="text" id="phone">
 </td>
 </tr>
 
 <tr>
 <td colspan="2">
 <label>WHAT DO YOU HAVE IN MIND</label>
-<textarea  ></textarea>
+<textarea id="message"></textarea>
 </td>
 </tr>
 
@@ -54,7 +56,7 @@
 </tr>
 
 </table>
-
+<p id="errorMsg"></p>
 </form>
 
 </div>
