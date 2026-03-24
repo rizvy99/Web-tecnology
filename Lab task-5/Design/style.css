@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    width: 500px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 25px; 
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.result-box {
+    text-align: left;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+.reverse-display {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 40px;
+    word-wrap: break-word;
+    font-style: italic;
+} 

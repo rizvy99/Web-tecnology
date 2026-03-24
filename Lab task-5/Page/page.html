@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Analyzer</title>
+    <link rel="stylesheet" href="../Design/style.css">
+    <script src="../JS/javaS.js"></script>
+     <link rel="icon" type = "image/x-icon" href = "text.jpg">
+</head>
+<body>
+
+<div class="container">
+    <form onsubmit="return false;">
+        <fieldset>
+            <legend>Text Analysis Tool</legend>
+
+            <div class="input-group">
+                <label for="textInput">Enter your paragraph:</label>
+                <textarea id="textInput" rows="8" placeholder="Paragraph here..."></textarea>
+            </div>
+
+            <button type="button" id="analyzeBtn" onclick="analyzeText()">Analyze Text</button>
+
+            <div id="resultArea" class="result-box">
+                <p><strong>Total Characters:</strong> <span id="charCount">0</span></p>
+                <p><strong>Total Words:</strong> <span id="wordCount">0</span></p>
+                <p><strong>Reversed Text:</strong></p>
+                <div id="reversedText" class="reverse-display"></div>
+            </div>
+
+        </fieldset>
+    </form>
+</div>
+
+</body>
+</html>
